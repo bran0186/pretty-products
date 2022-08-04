@@ -9,32 +9,42 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: .25em;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: .5em;
-  font-family: Oswald, sans-serif;
-}
-
-main {
+ol {
+  list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "main main";
   gap: 1rem;
-  font-weight: normal;
+  align-items: center;
+  justify-content: center;
   border-style: solid;
   margin: 1.5rem;
   border-width: 3px;
   border-color: #987ffa;
+  padding: .5em;
+  color: #fff;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #6f00e7;
+  font-family: Oswald, sans-serif;
 }
 
 h2 {
   font-family: Oswald, sans-serif;
-  color: #6f00e7;
+  color: #987ffa;
+}
+
+p {
+  font-family: Karma, serif;
+  color: #000;
+}
+
+ul li {
+  font-family: Oswald, sans-serif;
+  color: #fff;
 }
