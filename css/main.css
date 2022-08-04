@@ -13,10 +13,12 @@ ol {
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+ol li {
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  border-style: solid;
   margin: 1.5rem;
   border-width: 3px;
   border-color: #987ffa;
