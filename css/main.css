@@ -1,11 +1,35 @@
 html {
   box-sizing: border-box;
-  font-family: serif;
+  font-family: Karma, serif;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: .25em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  font-family: Oswald, sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  font-weight: normal;
+  border-style: solid;
+  margin: 1.5rem;
+  border-width: 3px;
+  border-color: #6f00e7;
 }
 
 h2 {
